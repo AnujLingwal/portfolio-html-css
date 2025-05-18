@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel ="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- NAVTABS -->
+    <nav>
+        <div class="left">
+            <a href="/">ANUJ LINGWAL</a>
+        </div>
+        <div class="right">
+            <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>linkedin</span>
+            </a>
+
+            <a href="mailto:Anujlingwal022@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Mail</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- SECTION 1: HERO-->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi , I am Anuj...
+                    <i class="fa-solid fa-ghost"></i>
+                </h2>
+                <p>A BTech Computer Science student passionate about front-end development and digital & traditional art. I love blending technology with creativity to craft visually engaging and interactive experiences. Whether it's designing sleek user interfaces or creating detailed artwork, I strive to bring ideas to life with precision and aesthetics. Explore my work and join me on this journey of innovation and design!</p>
+                <div class="links">
+                    <a href="#Skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#Pseudonym">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Pseudonym</span>
+                    </a>
+
+                    <a href="#Contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="images/profilepic.webp" alt="Anuj Lingwal">
+            </div>
+        </section>
+        
+        
+
+        <!-- SECTION 2: SKILLS-->
+        <section id="Skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">Throughout my Computer Science journey , these are some of the things i was able to get expertise on or quite get to know...</div>
+            
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/htmllogo.webp" alt="html logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/csslogo.webp" alt="css logo">
+                    <span>CSS</span>
+                </div>
+                
+                <div class="cell">
+                    <img src="images/clogo.webp" alt="c logo">
+                    <span>C</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/cpplogo.webp" alt="c++ logo">
+                    <span>C++</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2.5: VIDEOS-->
+        <section id="Videos" class="videos-section">
+            <h2>My Videos</h2>
+            <div class="text">Check out some of my video content showcasing my work and projects...</div>
+            
+            <div class="video-container">
+                <a href="https://drive.google.com/drive/folders/your-folder-id" target="_blank" rel="noopener noreferrer" class="video-link">
+                    <i class="fa-solid fa-video"></i>
+                    <span>View My Videos</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- SECTION 3: PEN-NAME-->
+        <section id="Pseudonym" class="penname-section">
+            <h2>Pseudonym</h2>
+
+            <div class="group">
+                <div class="person-details">
+                    <img src="images/pseudonym.webp">
+                    <h2>Light</h2>
+                    <p>Digital artist and Illustrator.</p>
+                </div>
+
+                <div class="text">
+                    "My artistic journey began during the COVID period, where I immersed myself in exploring various art forms. Over time, I honed my skills in traditional and digital art, expanding my expertise to include illustration work. This passion has continued alongside my academic pursuits, allowing me to develop a unique blend of creativity and technical precision. Through continuous learning and practice, I strive to refine my artistic abilities and bring expressive visuals to life."
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: CONTACT-->
+        <section id="Contact" class="contact-section">
+            <h2>
+                Contact
+            </h2>
+
+            <div class="group">
+                <div class="text">
+                    Let's Connect! Whether you have a project in mind, a collaboration opportunity, or just want to discuss design and development, feel free to reach out. I'm always open to new ideas and conversations. Drop me a message, and I'll get back to you as soon as possible!
+                </div>
+
+                <form>
+                    <label for="Name">Name</label>
+                    <input type="text" id="Name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Send message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
